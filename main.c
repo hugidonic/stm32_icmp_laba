@@ -8,7 +8,7 @@
 #include "lan.h"
 #include "stdio.h"
 #include "web_if.h"
-
+#include "init_net.h"
 
 void udp_packet(eth_frame_t *frame, uint16_t len) {
   char Buffer[20];
@@ -65,6 +65,7 @@ int main(void) {
 
 
   lan_init();
+  network_init();
   counter_init();
   webif_init();
 
