@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\LAN /ID:\DropBox\Dropbox\UTP /ID:\DropBox\Dropbox\UTP\TestCode /ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\cmsis_boot /ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\stm_lib\inc /ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\cmsis /ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\stm_lib /ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="13c1f4c84d5">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\LAN\web_if.h" lastModified="13c245169a9">
+         <include file="..\..\..\LAN\lan.h"/>
+      </source>
+      <source file="..\..\..\delay.h" lastModified="13c236d86ef">
+      </source>
+      <source file="..\..\..\LCD_Driver.h" lastModified="13c2461b668">
+      </source>
+      <source file="..\..\..\delay.c" lastModified="13c236e34e6">
+         <include file="..\..\..\delay.h"/>
+      </source>
+      <source file="..\..\..\LCD_Driver.c" lastModified="13c2463aa68">
+         <include file="..\..\..\LCD_Driver.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\delay.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="13c24397807">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\LAN\enc28j60.h" lastModified="13c243ab1d6">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="13c1f4c8105">
+      </source>
+      <source file="..\..\..\LAN\enc28j60.c" lastModified="13c24be5063">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\delay.h"/>
+         <include file="..\..\..\LAN\enc28j60.h"/>
+      </source>
+      <source file="..\..\..\LAN\counter.h" lastModified="13c24454b82">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="13c2439786d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\LAN\counter.c" lastModified="13c245f5114">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\LAN\counter.h"/>
+         <include file="..\..\..\LedsAndButtons.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="13c1f4c9bad">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="13c1f4c8b3b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\LAN\lan.h" lastModified="13c2445d1c8">
+         <include file="..\..\..\LAN\enc28j60.h"/>
+         <include file="..\..\..\LAN\counter.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="13c1f4c8b32">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\LedsAndButtons.h" lastModified="13f4be9b488">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="13c1f4c9bd5">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="13c1f4c7fc5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="13c1f4c6750">
+      </source>
+      <source file="..\..\..\stdio\printf.c" lastModified="13c2455b818">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="13c1f4caa2a">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\LAN\lan.c" lastModified="13f4d3bea4a">
+         <include file="..\..\..\LAN\lan.h"/>
+         <include file="..\..\..\LCD_Driver.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="13c2455bfe8">
+      </source>
+      <source file="..\..\..\LedsAndButtons.c" lastModified="13c2430a3e8">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\LedsAndButtons.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.c" lastModified="13c1f4c6330">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="13c1f4c8014">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="13f5207e8b3">
+         <include file="..\..\..\LCD_Driver.h"/>
+         <include file="..\..\..\LedsAndButtons.h"/>
+         <include file="..\..\..\LAN\lan.h"/>
+         <include file="..\..\..\LAN\counter.h"/>
+         <include file="..\..\..\LAN\web_if.h"/>
+         <include file="..\..\..\delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="13c1f4c812d">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="13c1f4c811f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="13c1f4caa07">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="13c1f4c80b0">
+      </source>
+   </includePath>
+</dependencies>

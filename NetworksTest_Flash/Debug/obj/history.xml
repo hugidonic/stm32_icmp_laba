@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 2.95 i386-mingw32 -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -std=gnu99 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -DHSE_VALUE=8000000UL -ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\LAN -ID:\DropBox\Dropbox\UTP -ID:\DropBox\Dropbox\UTP\TestCode -ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\cmsis_boot -ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\stm_lib\inc -ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\cmsis -ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM\stm_lib -ID:\DropBox\Dropbox\UTP\TestCode\NetWorks_STM">
+      <target file="stm32f10x_spi.o" lastModified="13f4d330147">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="13c1f4c9bd5"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="13f4d32fa19">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="13c1f4c8014"/>
+      </target>
+      <target file="core_cm3.o" lastModified="13f4d32f3c8">
+         <source file="..\..\..\cmsis\core_cm3.c" lastModified="13c1f4c5f48"/>
+      </target>
+      <target file="lan.o" lastModified="13f4d3bed42">
+         <source file="..\..\..\LAN\lan.c" lastModified="13f4d3be27a"/>
+      </target>
+      <target file="printf.o" lastModified="13f4d32f92b">
+         <source file="..\..\..\stdio\printf.c" lastModified="13c2455b048"/>
+      </target>
+      <target file="misc.o" lastModified="13f4d32ffb3">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="13c1f4caa2a"/>
+      </target>
+      <target file="web_if.o" lastModified="13f52113358">
+         <source file="..\..\..\LAN\web_if.c" lastModified="13f52112921"/>
+      </target>
+      <target file="counter.o" lastModified="13f4d32f580">
+         <source file="..\..\..\LAN\counter.c" lastModified="13c245f4d2c"/>
+      </target>
+      <target file="LCD_Driver.o" lastModified="13f4d33020b">
+         <source file="..\..\..\LCD_Driver.c" lastModified="13c2463aa68"/>
+      </target>
+      <target file="LedsAndButtons.o" lastModified="13f4d32faa9">
+         <source file="..\..\..\LedsAndButtons.c" lastModified="13c2430a000"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="13f4d32f70b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="13c1f4c8b3b"/>
+      </target>
+      <target file="delay.o" lastModified="13f4d32efeb">
+         <source file="..\..\..\delay.c" lastModified="13c236e34e6"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="13f4d32f4a4">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="13c1f4c811f"/>
+      </target>
+      <target file="syscalls.o" lastModified="13f4d32fde3">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="13c2455b048"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="13f4d32f2b6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="13c2439786d"/>
+      </target>
+      <target file="enc28j60.o" lastModified="13f4d32ef97">
+         <source file="..\..\..\LAN\enc28j60.c" lastModified="13c24be4c7b"/>
+      </target>
+      <target file="startup_stm32f10x_md_vl.o" lastModified="13f4d32f32c">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="13c1f4c80b0"/>
+      </target>
+      <target file="main.o" lastModified="13f5207fa87">
+         <source file="..\..\..\main.c" lastModified="13f5207dcfb"/>
+      </target>
+   </processor>
+</history>
